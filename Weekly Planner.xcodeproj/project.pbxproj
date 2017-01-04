@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63779A81E1CC1EA0015164F /* CustomRowActionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63779A71E1CC1EA0015164F /* CustomRowActionStyle.swift */; };
 		B668F52D1E1A6F1A00803FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668F52C1E1A6F1A00803FA5 /* AppDelegate.swift */; };
 		B668F52F1E1A6F1A00803FA5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668F52E1E1A6F1A00803FA5 /* RootViewController.swift */; };
 		B668F5311E1A6F1A00803FA5 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668F5301E1A6F1A00803FA5 /* DataViewController.swift */; };
@@ -14,9 +15,14 @@
 		B668F5361E1A6F1A00803FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B668F5341E1A6F1A00803FA5 /* Main.storyboard */; };
 		B668F5381E1A6F1A00803FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B668F5371E1A6F1A00803FA5 /* Assets.xcassets */; };
 		B668F53B1E1A6F1A00803FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B668F5391E1A6F1A00803FA5 /* LaunchScreen.storyboard */; };
+		B6D70A9F1E1B746E009A018C /* PlanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D70A9E1E1B746E009A018C /* PlanListViewController.swift */; };
+		B6D70AA11E1B75E3009A018C /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D70AA01E1B75E3009A018C /* Plan.swift */; };
+		B6D70AA31E1B9AD2009A018C /* PlanAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D70AA21E1B9AD2009A018C /* PlanAddViewController.swift */; };
+		B6D70AA51E1C19C7009A018C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D70AA41E1C19C7009A018C /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B63779A71E1CC1EA0015164F /* CustomRowActionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRowActionStyle.swift; sourceTree = "<group>"; };
 		B668F5291E1A6F1A00803FA5 /* Weekly Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weekly Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B668F52C1E1A6F1A00803FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B668F52E1E1A6F1A00803FA5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		B668F5371E1A6F1A00803FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B668F53A1E1A6F1A00803FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B668F53C1E1A6F1A00803FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D70A9E1E1B746E009A018C /* PlanListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanListViewController.swift; sourceTree = "<group>"; };
+		B6D70AA01E1B75E3009A018C /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		B6D70AA21E1B9AD2009A018C /* PlanAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanAddViewController.swift; sourceTree = "<group>"; };
+		B6D70AA41E1C19C7009A018C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +68,19 @@
 		B668F52B1E1A6F1A00803FA5 /* Weekly Planner */ = {
 			isa = PBXGroup;
 			children = (
+				B668F53C1E1A6F1A00803FA5 /* Info.plist */,
 				B668F52C1E1A6F1A00803FA5 /* AppDelegate.swift */,
-				B668F52E1E1A6F1A00803FA5 /* RootViewController.swift */,
+				B6D70AA41E1C19C7009A018C /* CustomTableViewCell.swift */,
 				B668F5301E1A6F1A00803FA5 /* DataViewController.swift */,
 				B668F5321E1A6F1A00803FA5 /* ModelController.swift */,
-				B668F5341E1A6F1A00803FA5 /* Main.storyboard */,
+				B6D70AA01E1B75E3009A018C /* Plan.swift */,
+				B6D70AA21E1B9AD2009A018C /* PlanAddViewController.swift */,
+				B6D70A9E1E1B746E009A018C /* PlanListViewController.swift */,
+				B668F52E1E1A6F1A00803FA5 /* RootViewController.swift */,
 				B668F5371E1A6F1A00803FA5 /* Assets.xcassets */,
 				B668F5391E1A6F1A00803FA5 /* LaunchScreen.storyboard */,
-				B668F53C1E1A6F1A00803FA5 /* Info.plist */,
+				B668F5341E1A6F1A00803FA5 /* Main.storyboard */,
+				B63779A71E1CC1EA0015164F /* CustomRowActionStyle.swift */,
 			);
 			path = "Weekly Planner";
 			sourceTree = "<group>";
@@ -102,6 +117,7 @@
 				TargetAttributes = {
 					B668F5281E1A6F1A00803FA5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8MQUUMMNFH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -144,7 +160,12 @@
 			files = (
 				B668F52F1E1A6F1A00803FA5 /* RootViewController.swift in Sources */,
 				B668F5331E1A6F1A00803FA5 /* ModelController.swift in Sources */,
+				B6D70AA11E1B75E3009A018C /* Plan.swift in Sources */,
 				B668F5311E1A6F1A00803FA5 /* DataViewController.swift in Sources */,
+				B6D70AA31E1B9AD2009A018C /* PlanAddViewController.swift in Sources */,
+				B6D70AA51E1C19C7009A018C /* CustomTableViewCell.swift in Sources */,
+				B63779A81E1CC1EA0015164F /* CustomRowActionStyle.swift in Sources */,
+				B6D70A9F1E1B746E009A018C /* PlanListViewController.swift in Sources */,
 				B668F52D1E1A6F1A00803FA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +213,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ryan345@nate.com (FJ797U3AN5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -242,6 +264,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: ryan345@nate.com (FJ797U3AN5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -257,6 +280,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -268,7 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MQUUMMNFH;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8MQUUMMNFH;
 				INFOPLIST_FILE = "Weekly Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.bamtoll.Weekly-Planner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,8 +307,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MQUUMMNFH;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8MQUUMMNFH;
 				INFOPLIST_FILE = "Weekly Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "moe.bamtoll.Weekly-Planner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -307,6 +338,7 @@
 				B668F5411E1A6F1A00803FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
